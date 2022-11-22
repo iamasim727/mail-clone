@@ -1,0 +1,104 @@
+form{
+    text-align: left;
+    font-size: 20px;
+    margin: 1% auto;
+    width: 30%;
+    border: 2px black solid;
+    padding: 2%;
+    border-radius: 9px;
+    border-color: rgb(209, 219, 227);
+    background-color: #e6e6e6;
+}
+input[type=text]{
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    font-family:  'Roboto', sans-serif;
+
+}
+
+input[type=password]:focus {
+    outline: none;
+}
+input[type=password]{
+    width: 100%;
+    border: none;
+    font-size: 20px;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+.fieldp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.google{
+  letter-spacing: -4px;
+}
+.head1 {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold
+}
+.head2
+{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color:blue;
+
+}
+fieldset{
+    padding: 0% 5%;
+    padding-bottom: 2%;
+    border-radius: 7px;
+    border-color: blue;
+}
+legend{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: blue;
+}
+
+.flex-contianer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10% auto;
+  }
+  
+  .left-btn {
+    align-items: left;
+    width: 200px;
+    font-size: 20px;
+    color: blue;
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+  }
+  .left-btn:hover{
+    background-color: rgb(209, 230, 246);
+    font-family:  'Roboto', sans-serif;
+  }
+  
+  .right-btn {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-right: 1%;
+    background-color: rgb(123, 123, 250);
+    color: aliceblue;
+    border: none;
+    border-radius: 7px;
+  }
+  .right-btn:hover{
+    background-color: rgb(13, 22, 146);
+  }
+  body{
+    background:linear-gradient(120deg,#2980b9,#8e44ed);
+  }
